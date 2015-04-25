@@ -1,0 +1,14 @@
+{
+    "name"         : "node-red-contrib-sensornode",
+    "version"      : "0.0.1",
+    "description"  : "A sensor node manager",
+    "dependencies": {
+    },
+    "keywords": [ "node-red" ],
+    "node-red"     : {
+        "nodes": {
+            "sensor-node-in": "sensornode/sensor-node-in.js",
+            "sensor-node-config": "sensornode/sensor-node-config.js"
+        }
+    }
+}
